@@ -55,11 +55,22 @@ body {
 }
 
 #timer {
-    font-size: 14vw;
+    font-size: 8vw;
     color: lightgreen;
     transition: color 300s linear;
 }
 
 .odometer-inside::before {
   content: "$";
+}
+
+#cube {
+  width: 100%;
+	height: 800px;
+}
+
+#winText {
+  color: lightgreen;
+  font-size: 7vw;
+  font-family: "Wallpoet", monospace;
 }
