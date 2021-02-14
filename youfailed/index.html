@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>JIGSAWS DASTARDLY CHALLENGE</title>
+  <meta name="description" content="Will Jeremy outwit Jigsaw or will he succumb to a childrens puzzle?">
+
+  <meta property="og:title" content="JIGSAWS DASTARDLY CHALLENGE">
+  <meta property="og:image" content="icon.jpg">
+
+
+  <link rel="icon" 
+      type="image/jpeg" 
+      href="icon.jpg" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="odometer-theme-digital.css">
+  <script src="odometer.min.js"></script>
+  <script charset="utf-8" src="battleship/battleship.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="battleship/styles.css">
+</head>
+<body>
+<div id="main">
+  <div class="board">
+    <div class="displays">
+      <div class="top">
+        <ul class="grid"></ul>
+      </div>
+      <div class="bottom">
+        <ul class="grid"></ul>
+      </div>
+    </div>
+  </div>
+  <div class="panel">
+    <div class="topPanel">
+      <div class="layout">
+        <div class='buttons one'>One-Player</div>
+        <div class='buttons multi'>Two-Player</div>
+        <div class='buttons options'>Options</div>
+      </div>
+    </div>
+    <div class='console'>
+      <span class='text'></span></div>
+  </div>
+</div>
+  
+  <button id="clickMe" onclick="start()">you failed and I lived motherfucker - jigsaw</button>
+  <img src="media/static.gif" style="display: none; pointer-events: none;"/>
+  <img src="media/gifs/jigsaw1.gif" style="display: none; pointer-events: none;"/>
+  <img src="media/gifs/jigsaw2.gif" style="display: none; pointer-events: none;"/>
+  <img src="media/gifs/jigsaw3.gif" style="display: none; pointer-events: none;"/>
+  <img src="media/gifs/jigsaw4.gif" style="display: none; pointer-events: none;"/>
+  <img src="media/gifs/jigsaw5.gif" style="display: none; pointer-events: none;"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.6.1/lodash.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="scripts.js"></script>
+  <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8a624e372b2b42baa0649413c7246f5e"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>
