@@ -74,3 +74,17 @@ body {
   font-size: 7vw;
   font-family: "Wallpoet", monospace;
 }
+
+#info {
+  display: flex;
+  flex-direction: column;
+  bottom: 0;
+  right: 0;
+  width: auto;
+  height: auto;
+  position: absolute;
+  z-index: 2;
+  color: white;
+  font-size: 1;
+  text-align: right;
+}

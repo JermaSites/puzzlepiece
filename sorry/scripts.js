@@ -13,6 +13,7 @@ var sawFinish = new Audio('media/JigsawCongratsNormal.mp3');
 
 function start() {
     document.getElementById("clickMe").style.display = "none";
+    document.getElementById("info").style.display = "none";
     document.getElementsByClassName("screen")[0].style.backgroundImage = 'url("media/static.gif")';
     var audio = new Audio('media/transition.mp3');
     audio.play();
